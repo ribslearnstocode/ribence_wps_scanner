@@ -1,8 +1,4 @@
-"""
-This is the (unofficial) Python API for dnsdumpster.com Website.
-Using this code, you can retrieve subdomains
 
-"""
 from __future__ import print_function
 
 import requests
@@ -14,7 +10,7 @@ from bs4 import BeautifulSoup
 
 class DNSDumpsterAPI(object):
 
-    """DNSDumpsterAPI Main Handler"""
+    
 
     def __init__(self, verbose=False):
         self.verbose = verbose
